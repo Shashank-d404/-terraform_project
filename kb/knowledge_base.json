@@ -1,0 +1,185 @@
+{
+  "case_study": "Lateritic Hardpan Plateau — Hardpan + Acidity",
+  "knowledge_base_version": "2.0",
+  "stages": {
+    "stage_1_input_echo": {
+      "description": "Baseline field observations using everyday measures.",
+      "items": [
+        {
+          "id": "KB_1_01",
+          "condition": "general_baseline",
+          "observation": "Reddish, coarse, gravelly topsoil with a hard subsurface layer encountered within hand's depth (~10 cm).",
+          "measure_type": "everyday_measure",
+          "source_reference": "TERRAFORM Field Protocol v1",
+          "confidence": "High"
+        }
+      ]
+    },
+    "stage_2_missing_analysis": {
+      "description": "Separation of observations, inferences, and unknowns.",
+      "items": [
+        {
+          "id": "KB_2_01",
+          "condition": "hardpan_acidity_indicators",
+          "observation": "Hard crust stops standard hand trowel penetration; reddish gravel texture.",
+          "inference": "Shallow iron/aluminum oxide accumulation restricts root growth and accelerates surface runoff.",
+          "unknown": "Exact chemical pH level and precise mineral saturation depth.",
+          "limitations_risks": "Assuming uniform soil depth across the plateau without spot-checking.",
+          "source_reference": "Plateau Restoration Guidelines",
+          "confidence": "High"
+        }
+      ]
+    },
+    "stage_3_fix_protocol": {
+      "description": "Condition-dependent soil preparation and runoff management.",
+      "items": [
+        {
+          "id": "KB_3_01",
+          "condition": "continuous_hardpan_or_rock",
+          "action": "Do not attempt deep plowing. Target hardpan breaking at grid points spaced 2 paces apart using heavy hand tools. Apply 1 bucketful of organic compost or decomposed leaf litter per planting pit to buffer acidity.",
+          "source_reference": "Hardpan Remediation Manual",
+          "confidence": "High"
+        },
+        {
+          "id": "KB_3_02",
+          "condition": "loose_gravel_layer",
+          "action": "Incorporate organic matter (2 bucketfuls per square pace) and establish stone contour bunds to stabilize gravel.",
+          "source_reference": "Gravel Soil Management Study",
+          "confidence": "High"
+        },
+        {
+          "id": "KB_3_03",
+          "condition": "sloping_terrain_runoff",
+          "action": "Dig shallow contour trenches (one hand's depth deep) across the slope every 3 paces to capture and infiltrate heavy rainfall.",
+          "source_reference": "Contour Trenching Guide",
+          "confidence": "High"
+        },
+        {
+          "id": "KB_3_04",
+          "condition": "flat_land_water_pooling",
+          "action": "Construct raised planting beds or ridges (hand's depth high) to prevent waterlogging around root zones during intense rain bursts.",
+          "source_reference": "Flat Plateau Drainage Protocol",
+          "confidence": "High"
+        }
+      ]
+    },
+    "stage_4_readiness_gate": {
+      "description": "Observable checks for planting readiness.",
+      "items": [
+        {
+          "id": "KB_4_01",
+          "condition": "readiness_evaluation",
+          "observable_checks": [
+            "Sturdy hand tool penetrates easily to hand's depth (~15 cm) after organic amendment.",
+            "Bucketful water test shows water is absorbed within the planting pocket rather than instantly washing away."
+          ],
+          "pass_meaning": "Soil structure is sufficiently amended to support root expansion and moisture retention.",
+          "fail_meaning": "Soil still resists tool penetration or water runs off instantly; re-apply Fix Protocol.",
+          "source_reference": "Readiness Gate Enforcement Rule",
+          "confidence": "Strict"
+        }
+      ]
+    },
+    "stage_5_crop_suggestions": {
+      "description": "Condition-appropriate adaptive crop choices and trade-offs.",
+      "items": [
+        {
+          "id": "KB_5_01",
+          "condition": "acidic_gravelly_slopes_no_advice",
+          "crop": "Finger Millet (Ragi)",
+          "suitability": "High tolerance for acidic, gravelly soils and moderate dry periods.",
+          "trade_offs": "Lower yield on untreated hardpan; requires localized organic pocket amendment.",
+          "source_reference": "Arid Plateau Crop Matrix",
+          "confidence": "Medium-High"
+        },
+        {
+          "id": "KB_5_02",
+          "condition": "poor_soil_recovery",
+          "crop": "Pigeon Pea (Toor Dal)",
+          "suitability": "Deep taproot helps fracture sub-surface layers over time; fixes nitrogen.",
+          "trade_offs": "Slower early establishment phase.",
+          "source_reference": "Legume Resilience Study",
+          "confidence": "High"
+        },
+        {
+          "id": "KB_5_03",
+          "condition": "flat_land_water_pooling",
+          "crop": "Sweet Potato",
+          "suitability": "Thrives on mounded ridge systems that prevent waterlogging on flat pooling terrain.",
+          "trade_offs": "Requires well-constructed raised beds.",
+          "source_reference": "Drainage Farming Guide",
+          "confidence": "High"
+        },
+        {
+          "id": "KB_5_04",
+          "condition": "late_rains_dry_spells",
+          "crop": "Sorghum (Jowar)",
+          "suitability": "Resilient against unexpected dry spells and late rainy season starts.",
+          "trade_offs": "Sensitive to extreme waterlogging if drainage fails.",
+          "source_reference": "Semi-Arid Agronomy Notes",
+          "confidence": "High"
+        }
+      ]
+    },
+    "stage_6_timeframe": {
+      "description": "Remediation buffers and realistic crop maturity ranges.",
+      "items": [
+        {
+          "id": "KB_6_01",
+          "condition": "timeframe_and_maturity",
+          "remediation_buffer": "3 to 7 days for organic composting and crust fracturing.",
+          "establishment_buffer": "First 15 to 30 days post-germination.",
+          "maturity_ranges": {
+            "Finger Millet": "90 to 120 days",
+            "Pigeon Pea": "150 to 180 days",
+            "Sweet Potato": "90 to 120 days",
+            "Sorghum": "100 to 130 days"
+          },
+          "seasonal_adjustment": "Adjust sowing schedule when late rains delay the rainy season start.",
+          "source_reference": "Agricultural Maturity Benchmarks",
+          "confidence": "High"
+        }
+      ]
+    },
+    "stage_7_planting_method": {
+      "description": "Micro-catchments, bed preparation, and sowing depth.",
+      "items": [
+        {
+          "id": "KB_7_01",
+          "condition": "slope_late_rains",
+          "method": "Plant in zai pits or half-moon micro-catchments spaced 2 paces apart along contour lines to harvest scarce rainfall.",
+          "sowing_depth": "Shallow depth (approx. one finger-joint) to allow easy emergence through amended topsoil pockets.",
+          "source_reference": "Water Harvesting Manual",
+          "confidence": "High"
+        }
+      ]
+    },
+    "stage_8_ongoing_care": {
+      "description": "Staged fertility, mulching, and dry-spell care.",
+      "items": [
+        {
+          "id": "KB_8_01",
+          "condition": "dry_spell_management",
+          "action": "Apply organic mulch (dry leaf litter or grass) two hand-spans wide around plant bases to reduce moisture evaporation. Perform manual weeding early in the season to eliminate nutrient competition.",
+          "pest_monitoring": "Inspect leaf undersides weekly; apply organic neem-based deterrents if pests appear.",
+          "source_reference": "Dryland Agronomy Guide",
+          "confidence": "High"
+        }
+      ]
+    },
+    "stage_9_harvest_regeneration": {
+      "description": "Maturity signs, non-tillage harvest, and soil recovery.",
+      "items": [
+        {
+          "id": "KB_9_01",
+          "condition": "post_harvest_recovery",
+          "harvest_signs": "Grain hardening for millets, pod drying for pigeon peas, or tuber skin firming for sweet potatoes.",
+          "harvest_method": "Harvest crops without deep tilling. Cut stalks cleanly at ground level to preserve soil aggregates.",
+          "regeneration_action": "Retain crop stubble and incorporate organic green matter post-harvest to rebuild acidity-stressed soil structure.",
+          "source_reference": "Regenerative Agriculture Framework",
+          "confidence": "High"
+        }
+      ]
+    }
+  }
+}
